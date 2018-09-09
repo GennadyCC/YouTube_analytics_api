@@ -1,0 +1,8 @@
+{
+"Id" : "channel==UCzFa1bUqK0m4vIs6wUprHKA",
+"Start" : "2017-01-01",
+"End" : "2018-01-01",
+"Filters" : "",
+"Dimensions" : "country",
+"Metrics" : "views,likes"
+}
