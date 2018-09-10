@@ -14,13 +14,13 @@ $ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 **Enable APIs:**
 go to https://console.developers.google.com/   ```Library``` and enable ```YouTube Data API v3```  and ```YouTube Analytics API ``` 
 
-Create ```client_sicret.json```:
+**Create** ```client_sicret.json```:
 go to https://console.developers.google.com/ ```Credentials``` , create new ```OAuth 2.0 client IDs``` credentials and download .json file.  
 
 
 
-**Specify requested report:**
-Add all needed information into ```report_setup.json```  file.
+**Specify requested report:**\n
+add all needed information into ```report_setup.json```  file.
 See details https://developers.google.com/youtube/reporting/
 
 **Example:**
