@@ -4,14 +4,14 @@ Python script to retrieve data from YouTube channel in .csv format.
 https://developers.google.com/youtube/analytics/
 ## Setup
 
-Python 2.7
+**Python 2.7**
 
 ```
 $ pip install --upgrade google-api-python-client
 
 $ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
-Enable APIs:
+**Enable APIs:**
 go to https://console.developers.google.com/   ```Library``` and enable ```YouTube Data API v3```  and ```YouTube Analytics API ``` 
 
 Create ```client_sicret.json```:
@@ -19,11 +19,11 @@ go to https://console.developers.google.com/ ```Credentials``` , create new ```O
 
 
 
-Specify requested report:
+**Specify requested report:**
 Add all needed information into ```report_setup.json```  file.
 See details https://developers.google.com/youtube/reporting/
 
-Example:
+**Example:**
 ```
 {
 "Id" : "channel==WCzFa1bRqK0l4vIs6wUprHMA",
@@ -36,7 +36,8 @@ Example:
 ```
 ![](./ScreenShot.png)
 
-Run script:
+**Run script:**
 ```
 python main.py
 ```
+Provide authorization and get the report ```output_file.csv```
