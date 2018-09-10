@@ -19,7 +19,7 @@ go to https://console.developers.google.com/ ```Credentials``` , create new ```O
 
 
 
-**Specify requested report:**\n
+**Specify requested report:**
 add all needed information into ```report_setup.json```  file.
 See details https://developers.google.com/youtube/reporting/
 
