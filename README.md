@@ -26,10 +26,10 @@ See details https://developers.google.com/youtube/reporting/
 **Example:**
 ```
 {
-"Id" : "channel==WCzFa1bRqK0l4vIs6wUprHMA",
+"Id" : "channel==WCzFa1bRqK0l4vIs6wxxxxx",
 "Start" : "2017-01-01",
 "End" : "2018-01-01",
-"Filters" : "video==FW5P1asF0B9",
+"Filters" : "video==FW5P1asxxxx",
 "Dimensions" : "country",
 "Metrics" : "views,likes"
 }
